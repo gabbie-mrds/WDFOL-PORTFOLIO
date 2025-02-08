@@ -1,0 +1,125 @@
+
+  .myname1{
+    color:#747eb1
+  }
+
+  .name{
+    color: #f3bec9;
+  }
+  
+  .myname1:after{
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination1 2.75s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "G";
+    }
+    3% {
+      content: "GA";
+    }
+   6% {
+      content: "GAB";
+    }
+    9% {
+      content: "GABR";
+    }
+    12% {
+      content: "GABRI";
+    }
+    15% {
+      content: "GABRIE";
+    }
+    18% {
+      content: "GABRIEL";
+    }
+    21% {
+      content: "GABRIELL";
+    }
+    24% {
+      content: "GABRIELLE";
+    }
+    27% {
+      content: "GABRIELLE ";
+    }
+    30% {
+      content: "GABRIELLE M";
+    }
+    33% {
+      content: "GABRIELLE MA";
+    }
+    36% {
+      content: "GABRIELLE MAE";
+    }
+    39% {
+      content: "GABRIELLE MAE ";
+    }
+    42% {
+      content: "GABRIELLE MAE R";
+    }
+    45% {
+      content: "GABRIELLE MAE RO";
+    }
+    48% {
+      content: "GABRIELLE MAE ROS";
+    }
+    51% {
+      content: "GABRIELLE MAE ROSE";
+    }
+    54% {
+      content: "GABRIELLE MAE ROSE S";
+    }
+    57% {
+      content: "GABRIELLE MAE ROSE S.";
+    }
+    60% {
+      content: "GABRIELLE MAE ROSE S. ";
+    }
+    63% {
+      content: "GABRIELLE MAE ROSE S. D";
+    }
+    66% {
+      content: "GABRIELLE MAE ROSE S. DE";
+    }
+    69% {
+      content: "GABRIELLE MAE ROSE S. DEL";
+    }
+    71% {
+      content: "GABRIELLE MAE ROSE S. DELO";
+    }
+    74% {
+      content: "GABRIELLE MAE ROSE S. DELOS";
+    }
+    77% {
+      content: "GABRIELLE MAE ROSE S. DELOS ";
+    }
+    80% {
+      content: "GABRIELLE MAE ROSE S. DELOS S";
+    }
+    83% {
+      content: "GABRIELLE MAE ROSE S. DELOS SA";
+    }
+    86% {
+      content: "GABRIELLE MAE ROSE S. DELOS SAN";
+    }
+    89% {
+      content: "GABRIELLE MAE ROSE S. DELOS SANT";
+    }
+    92% {
+      content: "GABRIELLE MAE ROSE S. DELOS SANTO";
+    }
+    100% {
+      content: "GABRIELLE MAE ROSE S. DELOS SANTOS";
+    }
+  }
+
+ 
