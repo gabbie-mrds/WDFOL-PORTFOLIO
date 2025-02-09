@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-brand, .name-center, .name {
+.my-brand, .name-center, .name, .proj, .title-proj {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -13,7 +13,7 @@
   }
 
 
-.descrip, nav, footer, .abt-button{
+.descrip, nav, footer, .abt-button, .title-descrip{
     font-family: "Josefin Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
