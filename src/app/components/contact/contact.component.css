@@ -1,0 +1,58 @@
+.contact-title:after{
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination1 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "L";
+    }
+    8% {
+        content: "LE";
+    }
+    16% {
+        content: "LE";
+    }
+    24% {
+        content: "LET";
+    }
+    32% {
+        content: "LET'";
+    }
+    40% {
+        content: "LET'S";
+    }
+    48% {
+        content: "LET'S ";
+    }
+    56% {
+        content: "LET'S C";
+    }
+    64% {
+        content: "LET'S CO";
+    }
+    72% {
+        content: "LET'S CON";
+    }
+    80% {
+        content: "LET'S CONN";
+    }
+    88% {
+        content: "LET'S CONNE";
+    }
+    96% {
+        content: "LET'S CONNEC";
+    }
+    100% {
+        content: "LET'S CONNECT";
+    }
+  }
+
