@@ -1,3 +1,7 @@
+
+.contact-title{
+    color:#747eb1
+  }
 .contact-title:after{
     position: center;
     content: "";

@@ -12,17 +12,24 @@ import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 })
 export class ContactComponent {
 
-  contactForm = {
+  myEmail = "gabmrds@gmail.com";
+
+  public contactForm = {
     name: '',
     email: '',
     message: ''
-  }
-
+  };
   submit(){
-    /*console.log("Successfully submitted!");
-    console.log(this.contactForm);*/
+
+    this.contactForm = {
+      name: '',
+      email: '',
+      message: ''
+    }
+    
     emailjs.send('service_uyiurcj', 'template_68wwrip', {...this.contactForm}, {publicKey: 'rb6nAGDc2qnYbemxY'}).then(() => {
-      console.log('Successfully submitted!')
+      alert('Your message was successfully submitted!')
     })
+    
   }
 }
