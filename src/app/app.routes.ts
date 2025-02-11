@@ -5,9 +5,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 export const routes: Routes = [
-    {path: '', component: HomeComponent},
-    {path: 'about', component: AboutComponent},
-    {path: 'projects', component: ProjectsComponent},
-    {path: 'contact', component: ContactComponent}
+    {path: '', title: 'GMRDS | HOME', component: HomeComponent},
+    {path: 'about', title: 'GMRDS | ABOUT', component: AboutComponent},
+    {path: 'projects', title: 'GMRDS | PROJECTS', component: ProjectsComponent},
+    {path: 'contact', title: 'GMRDS | CONTACT', component: ContactComponent}
 
 ];
