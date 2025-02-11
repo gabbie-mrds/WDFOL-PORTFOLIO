@@ -21,15 +21,19 @@ export class ContactComponent {
   };
   submit(){
 
-    this.contactForm = {
-      name: '',
-      email: '',
-      message: ''
+    if (this.contactForm.name !== '' && this.contactForm.email !== '' && this.contactForm.message !== ''){
+      emailjs.send('service_uyiurcj', 'template_68wwrip', {...this.contactForm}, {publicKey: 'rb6nAGDc2qnYbemxY'}).then(() => {
+        alert('Your message was successfully submitted!')
+      })
+      this.contactForm = {
+        name: '',
+        email: '',
+        message: ''
+      }
+    }else{
+      alert("Make sure you have completed the form before sending.")
     }
-    
-    emailjs.send('service_uyiurcj', 'template_68wwrip', {...this.contactForm}, {publicKey: 'rb6nAGDc2qnYbemxY'}).then(() => {
-      alert('Your message was successfully submitted!')
-    })
+
     
   }
 }
