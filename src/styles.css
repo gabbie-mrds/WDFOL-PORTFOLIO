@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-brand, .name-center, .name, .proj, .title-proj, .contact-title, .socials {
+.my-brand, .name-center, .name, .proj, .title-proj, .contact-title, .socials, .position {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: 500;
