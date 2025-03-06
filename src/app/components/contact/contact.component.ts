@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
+import * as AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 @Component({
@@ -12,6 +14,12 @@ import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 })
 export class ContactComponent {
 
+
+  ngOnInit(){
+      AOS.init();
+    }
+
+    
   myEmail = "gabmrds@gmail.com";
 
   public contactForm = {
