@@ -1,0 +1,45 @@
+.project:after{
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination1 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "T";
+    }
+    8% {
+        content: "TO";
+    }16% {
+        content: "TOW";
+    }24% {
+        content: "TOWE";
+    }32% {
+        content: "TOWER";
+    }40% {
+        content: "TOWER ";
+    }48% {
+        content: "TOWER G";
+    }56% {
+        content: "TOWER GR";
+    }64% {
+        content: "TOWER GR";
+    }72% {
+        content: "TOWER GRO";
+    }80% {
+        content: "TOWER GROU";
+    }88% {
+        content: "TOWER GROUN";
+    }96% {
+        content: "TOWER GROUND";
+    }100% {
+        content: "TOWER GROUND";
+    }
+  }

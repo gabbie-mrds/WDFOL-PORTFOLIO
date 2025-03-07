@@ -1,0 +1,37 @@
+.project:after{
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination1 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "G";
+    }
+    12% {
+        content: "GA";
+    }24% {
+        content: "GAB";
+    }36% {
+        content: "GABB";
+    }48% {
+        content: "GABBI";
+    }50% {
+        content: "GABBIE";
+    }62% {
+        content: "GABBIEE";
+    }74% {
+        content: "GABBIEEA";
+    }86% {
+        content: "GABBIEEAT";
+    }100% {
+        content: "GABBIEEATS";
+    }
+  }
