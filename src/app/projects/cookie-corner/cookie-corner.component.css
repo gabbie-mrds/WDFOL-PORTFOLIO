@@ -1,0 +1,45 @@
+.project:after{
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination1 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "C";
+    }
+    8% {
+        content: "CO";
+    }16% {
+        content: "COO";
+    }24% {
+        content: "COOK";
+    }32% {
+        content: "COOKI";
+    }40% {
+        content: "COOKIE";
+    }48% {
+        content: "COOKIE ";
+    }56% {
+        content: "COOKIE C";
+    }64% {
+        content: "COOKIE CO";
+    }72% {
+        content: "COOKIE COR";
+    }80% {
+        content: "COOKIE CORN";
+    }88% {
+        content: "COOKIE CORNE";
+    }96% {
+        content: "COOKIE CORNER";
+    }100% {
+        content: "COOKIE CORNER";
+    }
+  }
