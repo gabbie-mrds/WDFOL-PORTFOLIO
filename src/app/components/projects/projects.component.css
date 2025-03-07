@@ -1,22 +1,22 @@
 .cookie, .gabbieeats{
-    color: #a7b5fe
+    color: #747eb1
   }
 
   .cookie, .gabbieeats{
     text-decoration: underline;
-    text-decoration-color: #a7b5fe;
+    text-decoration-color: #747eb1;
   }
 
   .cookie:hover{
-    color: #747eb1;
+    color: #a7b5fe;
     text-decoration: underline;
-    text-decoration-color: #747eb1;
+    text-decoration-color: #a7b5fe;
   }
 
   .gabbieeats:hover{
-    color: #747eb1;
+    color: #a7b5fe;
     text-decoration: underline;
-    text-decoration-color: #747eb1;
+    text-decoration-color: #a7b5fe;
   }
 
   .project:after{
