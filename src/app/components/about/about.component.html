@@ -50,156 +50,88 @@
 
 <!--SKILLS-->
 
-<div class="lg:px-24 md:px-24 px-12 bg-stone-50 dark:bg-slate-600">
-  <br><br>
-  <h2 class="title-font text-4xl lg:text-5xl md:text-4xl font-medium text-[#f3bec9] name text-center">TECHNICAL SKILLS</h2>
-  <br><br>
-  <div class="lg:grid lg:grid-cols-2 lg:gap-6">
+<div class="bg-stone-50 dark:bg-slate-600">
+  <div class="lg:px-24 md:px-24 px-12 " >
+    <br><br>
+    <h2 class="title-font text-4xl lg:text-5xl md:text-4xl font-medium text-[#f3bec9] name text-center" data-aos="fade-up">TECHNICAL SKILLS</h2>
+    <br><br>
+    <div class="lg:grid lg:grid-cols-2 lg:gap-6" data-aos="fade-up">
+  
+      <!--LANGUAGES-->
+      <div class="w-full flex flex-col gap-2 lg:px-12 md:px-8 ">
+        <h2 class="title-font text-2xl lg:text-3xl md:text-3xl font-medium text-[#747eb1] name text-center lg:mt-0">LANGUAGES</h2>
+        <div *ngFor = "let language of languages">
+          <!-- Progress bar -->
+          <div class="flex flex-col gap-2">
+            <div class="w-full flex justify-between font-semibold">
+              <span class = "dark:text-white descrip text-gray-600">{{ language.lang }}</span>
+            </div>
+            <div class="w-full bg-[#fff9c7] rounded-full">
+              <div class="h-2 bg-[#a7b5fe] rounded-full" [style.width] = "language.width"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- FRAMEWORKS -->
 
-    <!---->
-    <div class="w-full flex flex-col gap-2 lg:px-12 md:px-8 ">
-      <h2 class="title-font text-2xl lg:text-3xl md:text-3xl font-medium text-[#747eb1] name text-center lg:mt-0">LANGUAGES</h2>
+      <div class="w-full flex flex-col gap-2 lg:px-12 md:px-8 ">
+        <h2 class="title-font text-2xl lg:text-3xl md:text-3xl font-medium text-[#747eb1] name text-center lg:mt-0 md:mt-8 mt-8" >FRAMEWORKS</h2>
+        <div *ngFor = "let framework of frameworks">
+          <!-- Progress bar -->
+          <div class="flex flex-col gap-2">
+            <div class="w-full flex justify-between font-semibold">
+              <span class = "dark:text-white descrip text-gray-600">{{ framework.fw }}</span>
+            </div>
+            <div class="w-full bg-[#fff9c7] rounded-full">
+              <div class="h-2 bg-[#a7b5fe] rounded-full" [style.width] = "framework.width"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       
-      <!-- Progress bar 1 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>WordPress</span>
-          <span>92 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[92%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 2 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>HTML/CSS/Javascript</span>
-          <span>90 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[90%] h-2 bg-rose-500 rounded-full"></div>
+      <!-- DATABASES  -->
+      <div class="w-full flex flex-col gap-2 lg:px-12 md:px-8 ">
+        <h2 class="title-font text-2xl lg:text-3xl md:text-3xl font-medium text-[#747eb1] name text-center lg:mt-0 md:mt-8 mt-8">DATABASES</h2>
+        <div *ngFor = "let database of databases">
+          <!-- Progress bar -->
+          <div class="flex flex-col gap-2">
+            <div class="w-full flex justify-between font-semibold">
+              <span class = "dark:text-white descrip text-gray-600">{{ database.db }}</span>
+            </div>
+            <div class="w-full bg-[#fff9c7] rounded-full">
+              <div class="h-2 bg-[#a7b5fe] rounded-full" [style.width] = "database.width"></div>
+            </div>
+          </div>
         </div>
       </div>
-    
-      <!-- Progress bar 3 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>PHP/Laravel</span>
-          <span>80 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[80%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 4 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>Vue/Nuxt</span>
-          <span>85 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[85%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 4 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>Nestjs</span>
-          <span>70 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[70%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-    </div>
-
-    <!-- -->
-    
-    
-    <div class="w-full flex flex-col gap-2 lg:px-12 md:px-8">
-      <h2 class="title-font text-2xl lg:text-3xl md:text-3xl font-medium text-[#747eb1] name text-center lg:mt-0 md:mt-8 mt-8">LANGUAGES</h2>
-      <!-- Progress bar 1 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>WordPress</span>
-          <span>92 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[92%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 2 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>HTML/CSS/Javascript</span>
-          <span>90 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[90%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 3 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>PHP/Laravel</span>
-          <span>80 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[80%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 4 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>Vue/Nuxt</span>
-          <span>85 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[85%] h-2 bg-rose-500 rounded-full"></div>
-        </div>
-      </div>
-    
-      <!-- Progress bar 4 -->
-      <div class="flex flex-col gap-2">
-        <div class="w-full flex justify-between font-semibold">
-          <span>Nestjs</span>
-          <span>70 %</span>
-        </div>
-        <!-- Progress bar -->
-        <div class="w-full bg-gray-300 rounded-full">
-          <div class="w-[70%] h-2 bg-rose-500 rounded-full"></div>
+      
+      <!-- TOOLS  -->
+      <div class="w-full flex flex-col gap-2 lg:px-12 md:px-8 ">
+        <h2 class="title-font text-2xl lg:text-3xl md:text-3xl font-medium text-[#747eb1] name text-center lg:mt-0 md:mt-8 mt-8">TOOLS</h2>
+        <div *ngFor = "let tool of tools">
+          <!-- Progress bar -->
+          <div class="flex flex-col gap-2">
+            <div class="w-full flex justify-between font-semibold">
+              <span class = "dark:text-white descrip text-gray-600">{{ tool.tool }}</span>
+            </div>
+            <div class="w-full bg-[#fff9c7] rounded-full">
+              <div class="h-2 bg-[#a7b5fe] rounded-full" [style.width] = "tool.width"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
   <br><br>
 </div>
-
 
 <!--CERTIFICATES-->
 <div class="bg-orange-50 dark:bg-slate-950">
   <br><br>
-  <h2 class="title-font text-4xl lg:text-5xl md:text-4xl mb-11 font-medium text-[#f3bec9] name text-center">MY CERTIFICATES AND TRAININGS</h2>
+  <h2 class="title-font text-4xl lg:text-5xl md:text-4xl pb-11 font-medium text-[#747eb1] name text-center">MY CERTIFICATES AND TRAININGS</h2>
   <br>
   <div class="flex justify-center items-center">
-    <div class="lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-20 md:mx-10 md:my-2 lg:my-0 mx-4">
+    <div class="lg:grid lg:grid-cols-3 lg:px-20 md:px-10 md:py-2 lg:py-0 px-4">
 
       <div *ngFor = "let cert of certs" data-aos="zoom-in-up">
         <div class="transition hover:scale-105 hover:-rotate-1" >
