@@ -149,7 +149,7 @@ export class AboutComponent {
       width: "65%"
     },
     {
-      tool: "Wodershare Filmora",
+      tool: "Wondershare Filmora",
       width: "80%"
     },
     {
