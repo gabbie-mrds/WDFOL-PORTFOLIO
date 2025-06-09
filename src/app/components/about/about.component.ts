@@ -117,6 +117,10 @@ export class AboutComponent {
       fw: "Tailwind CSS",
       width: "75%"
     },
+    {
+      fw: "Flutter",
+      width: "40%"
+    }
   ]
 
 
@@ -157,7 +161,7 @@ export class AboutComponent {
       width: "60%"
     },
     {
-      tool: "Github",
+      tool: "Github & Git",
       width: "50%"
     },
   ]
