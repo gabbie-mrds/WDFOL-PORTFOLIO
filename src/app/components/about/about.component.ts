@@ -90,32 +90,32 @@ export class AboutComponent {
 
   frameworks = [
     {
-      fw: "NodeJS",
+      fw: "Node.js",
       width: "50%"
     },
     {
-      fw: "ExpressJS",
+      fw: "Express.js",
       width: "45%"
     },
     {
-      fw: "VueJS",
+      fw: "Vue.js",
       width: "45%"
     },
     {
-      fw: "AngularJS",
+      fw: "Angular",
       width: "60%"
     },
     {
-      fw: "ReactJS",
-      width: "30%"
-    },
-    {
-      fw: "Bootstrap",
+      fw: "React",
       width: "65%"
     },
     {
+      fw: "Bootstrap",
+      width: "60%"
+    },
+    {
       fw: "Tailwind CSS",
-      width: "75%"
+      width: "80%"
     },
     {
       fw: "Flutter",
@@ -123,6 +123,24 @@ export class AboutComponent {
     }
   ]
 
+  cmsPlatforms = [
+    {
+      cms: "WordPress",
+      width: "60%"
+    },
+    {
+      cms: "Shopify",
+      width: "55%"
+    },
+    {
+      cms: "Joomla",
+      width: "40%"
+    },
+    {
+      cms: "Webflow",
+      width: "35%"
+    },
+  ]
 
   databases = [
     {
