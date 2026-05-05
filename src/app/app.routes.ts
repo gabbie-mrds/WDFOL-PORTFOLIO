@@ -7,6 +7,8 @@ import { CookieCornerComponent } from './projects/cookie-corner/cookie-corner.co
 import { GabbieeatsComponent } from './projects/gabbieeats/gabbieeats.component';
 import { GnbComponent } from './projects/gnb/gnb.component';
 import { TowerGroundComponent } from './projects/tower-ground/tower-ground.component';
+import { BangketaEskwelaComponent } from './projects/bangketa-eskwela/bangketa-eskwela.component';
+import { HrisComponent } from './projects/hris/hris.component';
 
 export const routes: Routes = [
     {path: '', title: 'GMRDS | HOME', component: HomeComponent},
@@ -16,5 +18,7 @@ export const routes: Routes = [
     {path: 'cookie-corner', title: 'GMRDS | COOKIE CORNER', component: CookieCornerComponent},
     {path: 'gabbieeats', title: 'GMRDS | GABBIEEATS' , component: GabbieeatsComponent},
     {path: 'gnb', title: 'GMRDS | GREENS N BEANS', component: GnbComponent},
-    {path: 'towerground', title: 'GMRDS | TOWER GROUND', component: TowerGroundComponent}
+    {path: 'towerground', title: 'GMRDS | TOWER GROUND', component: TowerGroundComponent},
+    {path: 'bangketa-eskwela', title: 'GMRDS | BANGEKTA ESKWELA', component: BangketaEskwelaComponent},
+    {path: 'hris-arise', title: 'GMRDS | HRIS', component: HrisComponent},
 ];

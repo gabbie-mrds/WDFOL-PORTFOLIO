@@ -1,0 +1,47 @@
+.project:after{
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: abomination1 1.5s linear 1;
+    animation-fill-mode: forwards;
+  }
+  
+  
+    @keyframes abomination1 {
+    0% {
+      content: "B";
+    }
+    8% {
+        content: "BA";
+    }16% {
+        content: "BAN";
+    }24% {
+        content: "BANG";
+    }32% {
+        content: "BANGK";
+    }40% {
+        content: "BANGKE";
+    }48% {
+        content: "BANGKET";
+    }56% {
+        content: "BANGKETA";
+    }64% {
+        content: "BANGKETA E";
+    }72% {
+        content: "BANGKETA ES";
+    }80% {
+        content: "BANGKETA ESK";
+    }88% {
+        content: "BANGKETA ESKW";
+    }96% {
+        content: "BANGKETA ESKWE";
+    }100% {
+        content: "BANGKETA ESKWEL";
+    }100% {
+        content: "BANGKETA ESKWELA";
+    }
+  }
