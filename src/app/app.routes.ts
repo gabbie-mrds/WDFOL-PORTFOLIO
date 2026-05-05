@@ -19,6 +19,6 @@ export const routes: Routes = [
     {path: 'gabbieeats', title: 'GMRDS | GABBIEEATS' , component: GabbieeatsComponent},
     {path: 'gnb', title: 'GMRDS | GREENS N BEANS', component: GnbComponent},
     {path: 'towerground', title: 'GMRDS | TOWER GROUND', component: TowerGroundComponent},
-    {path: 'bangketa-eskwela', title: 'GMRDS | BANGEKTA ESKWELA', component: BangketaEskwelaComponent},
-    {path: 'hris-arise', title: 'GMRDS | HRIS', component: HrisComponent},
+    {path: 'bangketa-eskwela', title: 'GMRDS | BANGKETA ESKWELA', component: BangketaEskwelaComponent},
+    {path: 'hris-arise', title: 'GMRDS | ARISE HRIS', component: HrisComponent},
 ];
