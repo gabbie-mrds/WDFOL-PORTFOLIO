@@ -1,0 +1,12 @@
+.tech-icon {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+.dark .tech-icon {
+    filter: grayscale(0%) ;
+}
+
+.tech-icon:hover {
+    filter: brightness(120%) contrast(110%) saturate(130%);
+}

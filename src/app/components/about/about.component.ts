@@ -55,133 +55,209 @@ export class AboutComponent {
     },
   ]
 
-
   languages = [
     {
-      lang: "HTML", 
-      width: "95%"
+      img: 'logos/html5-logo.png',
+      height: '40',
+      width:'40'
     },
     {
-      lang: "CSS", 
-      width: "90%"
+      img: 'logos/css-logo.png',
+      height: '40',
+      width:'40'
     },
     {
-      lang: "JavaScript", 
-      width: "70%"
+      img: 'logos/js-logo.webp',
+      height: '50',
+      width:'50'
     },
     {
-      lang: "PHP", 
-      width: "50%"
+      img: 'logos/php-logo.png',
+      height: '60',
+      width:'60'
     },
     {
-      lang: "Python", 
-      width: "50%"
+      img: 'logos/python-logo.webp',
+      height: '40',
+      width:'40'
     },
     {
-      lang: "Java", 
-      width: "60%"
+      img: 'logos/java-logo.png',
+      height: '90',
+      width:'90'
     },
     {
-      lang: "Dart", 
-      width: "40%"
+      img: 'logos/dart-logo.png',
+      height: '85',
+      width:'85'
     },
   ]
 
 
-  frameworks = [
+  frontEnd = [
     {
-      fw: "Node.js",
-      width: "50%"
+      img: 'logos/react-logo.png',
+      height: '90',
+      width:'90'
     },
     {
-      fw: "Express.js",
-      width: "45%"
+      img: 'logos/angular-logo.png',
+      height: '45',
+      width:'45'
     },
     {
-      fw: "Vue.js",
-      width: "45%"
+      img: 'logos/vuejs-logo.png',
+      height: '45',
+      width:'45'
     },
     {
-      fw: "Angular",
-      width: "60%"
+      img: 'logos/jquery-logo.png',
+      height: '85',
+      width:'85'
     },
     {
-      fw: "React",
-      width: "65%"
+      img: 'logos/flutter-logo.webp',
+      height: '80',
+      width:'80'
     },
     {
-      fw: "Bootstrap",
-      width: "60%"
+      img: 'logos/bootstrap.webp',
+      height: '90',
+      width:'90'
     },
     {
-      fw: "Tailwind CSS",
-      width: "80%"
+      img: 'logos/tailwind-logo.png',
+      height: '120',
+      width:'120'
+    },
+  ]
+
+  backEnd = [
+    {
+      img: 'logos/nodejs-logo.png',
+      height: '90',
+      width:'90'
     },
     {
-      fw: "Flutter",
-      width: "40%"
-    }
+      img: 'logos/ejs-logo.png',
+      height: '90',
+      width:'90'
+    },
+    {
+      img: 'logos/mysql-logo.png',
+      height: '90',
+      width:'90'
+    },
+    {
+      img: 'logos/mongodb-logo.png',
+      height: '90',
+      width:'90'
+    },
+    {
+      img: 'logos/firebase-logo.png',
+      height: '90',
+      width:'90'
+    },
+    {
+      img: 'logos/supabase-logo.png',
+      height: '90',
+      width:'90'
+    },
   ]
 
   cmsPlatforms = [
     {
-      cms: "WordPress",
-      width: "60%"
+      img: 'logos/wordpress-logo.png',
+      height: '90',
+      width:'90'
     },
     {
-      cms: "Shopify",
-      width: "55%"
+      img: 'logos/shopify-logo.png',
+      height: '90',
+      width:'90'
     },
     {
-      cms: "Joomla",
-      width: "40%"
+      img: 'logos/joomla-logo.png',
+      height: '100',
+      width:'100'
     },
     {
-      cms: "Webflow",
-      width: "35%"
+      img: 'logos/webflow-logo.webp',
+      height: '100',
+      width:'100'
     },
   ]
 
-  databases = [
+  seoTech = [
     {
-      db: "MySQL",
-      width: "35%"
+      img: 'logos/yoast-logo.png',
+      height: '60',
+      width:'60'
     },
     {
-      db: "MongoDB",
-      width: "25%"
+      img: 'logos/ganalytics-logo.png',
+      height: '120',
+      width:'120'
     },
     {
-      db: "Firebase",
-      width: "25%"
+      img: 'logos/pagespeed-logo.png',
+      height: '50',
+      width:'50'
     },
   ]
+
+  
 
   tools = [
     {
-      tool: "Microsoft Office",
-      width: "97%"
+      img: 'logos/figma-logo.png',
+      height: '50',
+      width:'50'
     },
     {
-      tool: "Canva",
-      width: "95%"
+      img: 'logos/canva-logo.webp',
+      height: '80',
+      width:'80'
     },
     {
-      tool: "Figma",
-      width: "65%"
+      img: 'logos/git-logo.png',
+      height: '50',
+      width:'50'
     },
     {
-      tool: "Wondershare Filmora",
-      width: "80%"
+      img: 'logos/github-logo.png',
+      height: '50',
+      width:'50'
     },
     {
-      tool: "Trello",
-      width: "60%"
+      img: 'logos/linux-logo.png',
+      height: '80',
+      width:'80'
     },
     {
-      tool: "Github & Git",
-      width: "50%"
+      img: 'logos/microsoft-office-logo.png',
+      height: '80',
+      width:'80'
+    },
+    {
+      img: 'logos/Trello-logo.png',
+      height: '90',
+      width:'90'
+    },
+    {
+      img: 'logos/clickup-logo.png',
+      height: '80',
+      width:'80'
+    },
+    {
+      img: 'logos/filmora-logo.png',
+      height: '80',
+      width:'80'
+    },
+    {
+      img: 'logos/capcut-logo.png',
+      height: '90',
+      width:'90'
     },
   ]
-
 }
