@@ -51,7 +51,7 @@
 
 <div class="bg-orange-50 dark:bg-slate-950">
   <div class="">
-    <div class="lg:px-24 md:px-24 px-12" >
+    <div class="lg:px-24 md:px-24 px-4" >
       <br><br>
       <h2 class="title-font text-5xl font-medium text-[#f3bec9] name text-center" data-aos="fade-up">TECHNICAL SKILLS</h2>
       <br><br>
@@ -127,8 +127,8 @@
         <!--TOOLS-->
         <div class="bg-orange/10 dark:bg-slate-800 backdrop-blur-2xl px-6 py-6 rounded-2xl shadow-[0_8px_32px_rgba(180,83,9,0.12)] dark:shadow-[0_8px_32px_rgba(0,0,0,0.3)] ring-orange-100/10 dark:ring-white/10 lg:mb-0 mb-5">
           <h2 class="title-font text-4xl font-medium text-[#747eb1] name text-center lg:mt-0 mb-6">TOOLS</h2>
-          <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-4">
-            <div *ngFor = "let tool of tools" class="flex items-center justify-center h-20 transition-transform duration-300 hover:scale-110  md:last:col-start-2 lg:last:col-start-auto">
+          <div class="grid lg:grid-cols-5 grid-cols-3 gap-4">
+            <div *ngFor = "let tool of tools" class="flex items-center justify-center h-20 transition-transform duration-300 hover:scale-110  last:col-start-2 lg:last:col-start-auto">
               <div class="flex justify-center">
                 <img src={{tool.img}} class="tech-icon object-contain" [height]=tool.height [width]=tool.width>
               </div>
